@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    margin: 0 auto ;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.board{
+    background-color: darkblue;
+    padding: 10px 30px;
+    padding-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+}
+.tile{
+    background-color: white;
+    height: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.column:hover{
+    background-color: blue;
+}

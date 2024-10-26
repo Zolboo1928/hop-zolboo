@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Helvetica , sans-serif, Arial;
+}
+p{
+    margin: 0;
+}
+.container{
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+.bigger-section{
+    position: relative;
+    border-radius: 5px;
+    height: 500px;
+    width: 50%;
+    overflow: hidden;
+    
+
+}
+.bigger-section::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+
+}
+.section-details{
+    position: absolute;
+    padding: 30px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, .6), transparent);
+}
+.yariltslaga{
+    display: flex;
+    justify-content: space-between;
+}
+.small-sections-imgs{
+height: 243px;
+width: 263px;
+  border-radius: 5px;
+    overflow: hidden;
+}
+.small-sections{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 50%;
+  margin-left: 15px;
+
+}
+img{
+    object-fit: cover;
+}
+.logo{
+    background-color: #407ce8;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 10px;
+        padding: 2px 5px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-bottom: 5px;
+    line-height: 22px;
+    transition: 0.3s;
+}
+.text{
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+}
+.svg{
+height: 100%;
+width:100%
+}
+.delgerengui{
+    border-top: 1px solid hsla(0, 0%, 100%, .15);
+    font-size: 10px;
+    padding-top: 10px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.small-details{
+    padding: 20px 20px 25px 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, .6), transparent);
+
+}
+.cringe{
+    position: relative;
+}
+.text2{
+color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+    margin: 0;
+    max-height: 55px;
+    line-height: 1.4;
+}
+.cringe:hover img{
+    transform: scale(1.1);
+    
+    
+}
+.cringe img{
+    
+   transition: 0.3s;
+}
+.cringe{
+    overflow: hidden;
+}
+.bigger-section:hover img{
+transform: scale(1.1);
+}
+.bigger-section img{
+    transition: 0.3s;
+}
+.cringe:hover .logo{
+    opacity: 0.5;
+}
+.bigger-section:hover .logo{
+    opacity: 0.5;
+}

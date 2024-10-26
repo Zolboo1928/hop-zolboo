@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.board{
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+}
+.tile{
+    border: 5px solid #fff;
+    border-radius: 20px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.tile:hover{
+    transform: scale(1.05);
+}
+h2{
+    font-size: 48px;
+}
+.all{
+    display: flex;
+}
+#timer{
+    font-size: 100px;
+}
+#gameOver{
+    
+}
